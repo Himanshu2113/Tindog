@@ -1,0 +1,106 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#footer{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.first{
+  margin-left: 60px;
+  margin-right: 60px;
+  /* width: 70%; */
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.iphone{
+  /* float: right; */
+  padding-top: 5em;
+  margin-bottom: 0px;
+}
+.button{
+  width: 30%;
+  margin: 13em 10em 20em 10em;
+}
+.heading{
+  font-size: 45px;
+}
+button{
+  padding: 10px 25px 10px 15px;
+  border-radius: 10px;
+  border: 2px solid white ;
+}
+.features{
+  display: flex;
+  justify-content: space-evenly;
+}
+#features{
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 15px;
+}
+.testimonials{
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+#testimonial{
+  background-color:bisque;
+}
+.four-images{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  
+}
+html,body{
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+.img{
+  height: 40px;
+  margin-bottom: 40px;
+}
+.price{
+  text-align: center;
+  margin-top: 80px;
+}
+.prices{
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 4em;
+  margin-right: 4em;
+}
+@media(max-width:990px){
+  .iphone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+  }
+  
+}
