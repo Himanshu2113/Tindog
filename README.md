@@ -1,2 +1,2 @@
 # Tindog
-Adopting dogs online
+A basic website completely made on bootstarp.
